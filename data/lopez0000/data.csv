@@ -1,0 +1,128 @@
+code,species,population,treatment,transpiration,lma,gmin,area,units
+5,hakea leucoptera,broken hill,d,0.105227007,669.7204882,2.892845586,projected,mmol m-2 s-1
+9,hakea petiolaris,perth,w,0.022286165,190.3377079,2.22535908,projected,mmol m-2 s-1
+10,hakea petiolaris,perth,w,0.042136987,213.69878,2.316815841,projected,mmol m-2 s-1
+12,hakea sericea,richmond,d,0.295398337,425.6966324,4.060467935,projected,mmol m-2 s-1
+15,hakea sericea,richmond,d,0.275963983,347.0871948,3.793328421,projected,mmol m-2 s-1
+22,hakea dactyloides,barrier mountain,d,0.061032089,177.1033045,3.355724277,projected,mmol m-2 s-1
+23,hakea dactyloides,barrier mountain,d,0.038793416,181.4063135,2.132976436,projected,mmol m-2 s-1
+29,hakea dactyloides,woodford,d,0.051038636,134.032057,2.806254758,projected,mmol m-2 s-1
+30,hakea dactyloides,woodford,w,0.059876035,151.4803812,3.292160999,projected,mmol m-2 s-1
+35,hakea propinqua,blue mountains,w,1.263225907,464.5273754,8.681985741,projected,mmol m-2 s-1
+36,hakea propinqua,blue mountains,w,1.435767883,475.0864278,9.867844074,projected,mmol m-2 s-1
+37,hakea salicifolia,angustifolia,w,0.156389633,202.3789589,8.598763265,projected,mmol m-2 s-1
+38,hakea salicifolia,angustifolia,d,0.051812205,153.4367039,2.848787836,projected,mmol m-2 s-1
+40,hakea leucoptera,wilcannia,w,0.236978456,583.2369669,6.514887207,projected,mmol m-2 s-1
+41,hakea prostrata,inland,w,0.132292238,200.7489959,6.061514511,projected,mmol m-2 s-1
+42,hakea prostrata,inland,d,0.023698459,198.6326978,1.303011157,projected,mmol m-2 s-1
+43,hakea megadenia,Friendly beaches Tasmania,w,0.795653788,499.7735938,7.291231974,projected,mmol m-2 s-1
+51,hakea leucoptera,broken hill,d,0.112388746,715.3326654,3.089732347,projected,mmol m-2 s-1
+53,hakea leucoptera,wilcannia,w,0.598929745,598.294476,8.232730945,projected,mmol m-2 s-1
+54,hakea leucoptera,toorale,d,0.059227795,540.9770588,2.171012579,projected,mmol m-2 s-1
+55,hakea leucoptera,toorale,d,0.082478007,504.5521229,3.023256063,projected,mmol m-2 s-1
+56,hakea petiolaris,perth,w,0.03997378,215.4140382,2.197876341,projected,mmol m-2 s-1
+58,hakea sericea,richmond,d,0.315829577,432.0303568,4.341310394,projected,mmol m-2 s-1
+63,hakea lorea,western australia,w,0.230610442,442.4845346,8.453094822,projected,mmol m-2 s-1
+64,hakea dactyloides,barrier mountain,d,0.04032666,180.3662,2.217278698,projected,mmol m-2 s-1
+70,hakea leucoptera,tibooburra,d,0.177394444,632.928026,4.876834846,projected,mmol m-2 s-1
+71,hakea leucoptera,tibooburra,d,0.123694471,628.32974,3.400543415,projected,mmol m-2 s-1
+77,hakea dactyloides,woodford,d,0.031210049,148.195362,1.71602053,projected,mmol m-2 s-1
+78,hakea dactyloides,woodford,d,0.038825548,139.23685,2.134743128,projected,mmol m-2 s-1
+83,hakea salicifolia,angustifolia,w,0.081246556,180.9816361,4.467175266,projected,mmol m-2 s-1
+87,hakea prostrata,inland,d,0.022492487,195.0701908,1.236703285,projected,mmol m-2 s-1
+88,hakea prostrata,inland,w,0.107214605,198.9870456,4.912479321,projected,mmol m-2 s-1
+98,hakea leucoptera,toorale,d,0.062365889,515.329874,2.286040355,projected,mmol m-2 s-1
+103,hakea petiolaris,perth,d,0.013972209,171.416886,0.768233249,projected,mmol m-2 s-1
+104,hakea petiolaris,perth,d,0.021235896,169.3655687,0.898163244,projected,mmol m-2 s-1
+108,hakea lorea,western australia,d,0.124993386,600.7273159,4.908932154,projected,mmol m-2 s-1
+109,hakea lorea,western australia,d,0.149042141,614.5167496,5.853411755,projected,mmol m-2 s-1
+110,hakea lorea,western australia,d,0.133265548,605.236984,5.233809177,projected,mmol m-2 s-1
+117,hakea leucoptera,tibooburra,d,0.111180926,635.1666666,3.056527617,projected,mmol m-2 s-1
+126,hakea propinqua,blue mountains,d,0.180936582,552.0813809,6.632284617,projected,mmol m-2 s-1
+127,hakea propinqua,blue mountains,d,0.10575982,534.2896539,3.876657888,projected,mmol m-2 s-1
+132,hakea prostrata,west,w,0.152662916,214.9511301,6.994881121,projected,mmol m-2 s-1
+133,hakea prostrata,west,w,0.073945593,194.2022876,4.065746791,projected,mmol m-2 s-1
+137,hakea teretifolia,blue mountains,w,0.390654,482.1424422,7.159769678,projected,mmol m-2 s-1
+141,hakea leucoptera,toorale,w,0.498932685,601.2366327,6.858197617,projected,mmol m-2 s-1
+143,hakea leucoptera,wilcannia,d,0.176744164,597.8105001,4.858957704,projected,mmol m-2 s-1
+148,hakea petiolaris,perth,d,0.032841334,167.5899526,1.28979528,projected,mmol m-2 s-1
+149,hakea sericea,richmond,w,1.097696,361.7854611,7.544320432,projected,mmol m-2 s-1
+151,hakea sericea,richmond,w,1.085321482,377.3654724,7.459271993,projected,mmol m-2 s-1
+153,hakea lorea,western australia,w,0.123695487,523.3565465,6.801142682,projected,mmol m-2 s-1
+154,hakea lorea,western australia,w,0.173803763,586.7287666,7.963536222,projected,mmol m-2 s-1
+155,hakea dactyloides,barrier mountain,w,0.073878523,152.7170287,4.062059072,projected,mmol m-2 s-1
+156,hakea dactyloides,barrier mountain,w,0.084222351,163.289,4.630793255,projected,mmol m-2 s-1
+158,hakea dactyloides,barrier mountain,w,0.122607373,181.2608755,6.741314989,projected,mmol m-2 s-1
+170,hakea propinqua,blue mountains,d,0.112569875,540.236987,4.126282469,projected,mmol m-2 s-1
+172,hakea leucoptera,wilcannia,w,0.196565332,530.6303623,5.403870836,projected,mmol m-2 s-1
+176,hakea prostrata,west,d,0.118177721,143.1607455,3.248879824,projected,mmol m-2 s-1
+177,hakea prostrata,west,d,0.069644789,140.3369487,3.82927591,projected,mmol m-2 s-1
+178,hakea megadenia,Friendly beaches Tasmania,w,0.892367445,512.3699784,8.177498984,projected,mmol m-2 s-1
+183,hakea leucoptera,broken hill,w,0.279565563,330.2535208,5.123779716,projected,mmol m-2 s-1
+184,hakea leucoptera,broken hill,w,0.56326989,370.3258963,4.424319966,projected,mmol m-2 s-1
+195,hakea sericea,richmond,w,0.999865739,409.6007992,6.871945895,projected,mmol m-2 s-1
+203,hakea leucoptera,tibooburra,w,0.500867667,802.328504,6.884795372,projected,mmol m-2 s-1
+204,hakea leucoptera,tibooburra,w,0.79361418,660.5409545,6.233606883,projected,mmol m-2 s-1
+206,hakea leucoptera,tibooburra,w,0.635998737,715.3365479,6.993817248,projected,mmol m-2 s-1
+209,hakea dactyloides,woodford,w,0.054327494,149.2364,2.987085866,projected,mmol m-2 s-1
+214,hakea propinqua,blue mountains,w,1.12369475,502.3694589,7.723006424,projected,mmol m-2 s-1
+217,hakea salicifolia,angustifolia,w,0.176260994,213.8242484,9.691349301,projected,mmol m-2 s-1
+221,hakea prostrata,west,d,0.040531017,138.7244705,2.228514863,projected,mmol m-2 s-1
+222,hakea megadenia,Friendly beaches Tasmania,w,0.987724004,697.7899408,9.05132979,projected,mmol m-2 s-1
+224,hakea leucoptera,toorale,w,0.50844772,525.781004,6.988988794,projected,mmol m-2 s-1
+247,hakea salicifolia,saligna,d,0.068975051,128.268629,3.792451711,projected,mmol m-2 s-1
+248,hakea salicifolia,saligna,w,0.152369875,140.2589635,8.377745122,projected,mmol m-2 s-1
+251,hakea leucoptera,mildura,d,0.157183095,758.5626243,2.880796718,projected,mmol m-2 s-1
+252,hakea leucoptera,mildura,d,0.069370892,476.3272403,1.907108107,projected,mmol m-2 s-1
+253,hakea leucoptera,mildura,w,1.016457136,566.5502798,6.985976386,projected,mmol m-2 s-1
+255,hakea salicifolia,angustifolia,d,0.036943327,168.3663298,2.031253048,projected,mmol m-2 s-1
+256,hakea elliptica,albany,w,0.097556336,130.2689999,4.469945912,projected,mmol m-2 s-1
+261,hakea teretifolia,blue mountains,w,0.432326486,520.9093002,7.923528402,projected,mmol m-2 s-1
+266,hakea prostrata,west,w,0.125564789,200.2369845,6.903922426,projected,mmol m-2 s-1
+268,hakea cinerea,scaddan,w,0.144484087,139.764154,6.620134364,projected,mmol m-2 s-1
+277,hakea leucoptera,wilcannia,d,0.087355731,459.3317797,2.401537849,projected,mmol m-2 s-1
+278,hakea leucoptera,wilcannia,d,0.098565533,499.2256325,2.709711839,projected,mmol m-2 s-1
+280,hakea dactyloides,blue mountains,w,0.05045168,153.6977,2.773982154,projected,mmol m-2 s-1
+286,hakea leucoptera,binya,d,0.089656528,414.7402298,3.286386887,projected,mmol m-2 s-1
+287,hakea leucoptera,binya,d,0.121458875,523.6698663,4.452111438,projected,mmol m-2 s-1
+291,hakea leucoptera,binya,d,0.409524541,664.7400098,5.629216765,projected,mmol m-2 s-1
+292,hakea salicifolia,saligna,d,0.072369589,130.2236146,3.979093418,projected,mmol m-2 s-1
+293,hakea salicifolia,saligna,d,0.103084155,134.4410964,3.148817139,projected,mmol m-2 s-1
+295,hakea leucoptera,mildura,d,0.075662447,523.3259,2.080072241,projected,mmol m-2 s-1
+301,hakea elliptica,albany,w,0.098134275,130.5761702,4.496426562,projected,mmol m-2 s-1
+307,hakea teretifolia,blue mountains,d,0.105463075,344.6606948,4.460516071,projected,mmol m-2 s-1
+314,hakea cinerea,scaddan,w,0.17284414,157.2031,7.919567126,projected,mmol m-2 s-1
+318,hakea teretifolia,blue mountains,d,0.152322359,452.3695479,5.234457824,projected,mmol m-2 s-1
+326,hakea dactyloides,blue mountains,w,0.056034235,154.3773783,3.080927514,projected,mmol m-2 s-1
+335,hakea leucoptera,binya,w,1.861840224,627.3656817,9.306315135,projected,mmol m-2 s-1
+339,hakea salicifolia,saligna,w,0.142125521,141.7157735,7.814480303,projected,mmol m-2 s-1
+347,hakea elliptica,albany,d,0.046739665,116.3447335,2.141570535,projected,mmol m-2 s-1
+348,hakea elliptica,albany,d,0.038964756,117.236699,1.785331016,projected,mmol m-2 s-1
+356,hakea teretifolia,blue mountains,w,0.366589664,518.3636954,6.718726966,projected,mmol m-2 s-1
+358,hakea prostrata,west,d,0.092791978,189.2653029,2.550988315,projected,mmol m-2 s-1
+360,hakea cinerea,scaddan,w,0.197085841,204.4087322,7.740257691,projected,mmol m-2 s-1
+361,hakea varia,wanneroo,w,0.258870834,213.2460705,7.116740957,projected,mmol m-2 s-1
+362,hakea varia,wanneroo,w,0.498856743,241.3369211,7.83674714,projected,mmol m-2 s-1
+363,hakea dactyloides,woodford,w,0.043121778,138.2674,2.370962505,projected,mmol m-2 s-1
+364,hakea teretifolia,blue mountains,d,0.266382607,471.2786892,4.882167123,projected,mmol m-2 s-1
+366,hakea leucoptera,broken hill,d,0.123856431,724.8311562,3.404995922,projected,mmol m-2 s-1
+367,hakea leucoptera,broken hill,w,1.622559802,409.4140289,8.921312323,projected,mmol m-2 s-1
+374,hakea dactyloides,blue mountains,d,0.034508451,175.4843058,1.897376427,projected,mmol m-2 s-1
+383,hakea leucoptera,binya,w,1.626989412,611.3325895,9.939630693,projected,mmol m-2 s-1
+393,hakea elliptica,albany,d,0.03256773,119.8709105,1.492224864,projected,mmol m-2 s-1
+394,hakea varia,wanneroo,d,0.143630915,239.5582629,3.948625653,projected,mmol m-2 s-1
+400,hakea varia,wanneroo,w,0.565474577,257.2598951,7.772864996,projected,mmol m-2 s-1
+402,hakea prostrata,inland,w,0.12568482,152.366729,5.758768386,projected,mmol m-2 s-1
+414,hakea leucoptera,toorale,w,0.325831574,623.887748,5.971726967,projected,mmol m-2 s-1
+419,hakea dactyloides,blue mountains,d,0.023363158,240.8092447,1.284575356,projected,mmol m-2 s-1
+420,hakea dactyloides,blue mountains,d,0.02536446,225.3456,1.394612806,projected,mmol m-2 s-1
+422,hakea dactyloides,blue mountains,w,0.049696288,150.7112288,2.732448455,projected,mmol m-2 s-1
+427,hakea leucoptera,binya,w,1.040916337,643.9837579,6.359183343,projected,mmol m-2 s-1
+430,hakea salicifolia,saligna,w,0.151638835,145.4577521,8.337550348,projected,mmol m-2 s-1
+433,hakea leucoptera,mildura,w,1.122399105,452.3699874,8.816116147,projected,mmol m-2 s-1
+434,hakea leucoptera,mildura,w,2.201473332,441.1190479,8.645964032,projected,mmol m-2 s-1
+438,hakea salicifolia,angustifolia,d,0.028034006,171.6415156,1.541392309,projected,mmol m-2 s-1
+439,hakea elliptica,albany,w,0.091853499,132.0630619,4.208646905,projected,mmol m-2 s-1
+440,hakea varia,wanneroo,d,0.149957422,241.2258935,4.122550648,projected,mmol m-2 s-1
+441,hakea varia,wanneroo,d,0.164594034,276.851833,4.524932696,projected,mmol m-2 s-1
+449,hakea prostrata,inland,d,0.02094118,199.5103369,1.151407852,projected,mmol m-2 s-1

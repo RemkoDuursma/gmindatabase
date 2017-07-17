@@ -8,12 +8,17 @@ read_data_dir <- function(path){
   if(file.exists(prepscript)){
     source(prepscript, local=TRUE)
     raw <- prepare(raw)
+    
+    # Drop missing values (some may be generated in the prepare functions)
+    raw <- raw[!is.na(raw$gmin),]
   }
   
   raw$source <- studyname
 
   # Unit conversions.
   raw$gmin <- mapply(convert_gmin_units, x=raw$gmin, units=raw$units, area=raw$area)
+  
+  
   
 raw[,c("species","gmin","source")]
 }
@@ -26,7 +31,7 @@ convert_gmin_units <- function(x, units, areabase){
     switch(units,
              `10^5 ms-1` = 10^5 * 10^-3 / 41,
              `mmol m-2 s-1` = 1) *
-    switch(areabase,
+    switch(tolower(areabase),
            allsided = 2,
            projected = 1)
   

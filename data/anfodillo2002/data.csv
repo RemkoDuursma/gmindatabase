@@ -1,0 +1,19 @@
+species,Site,Month,gmin,units,area
+Pinus cembra,Site1,Feb,0.5439223,10^5 ms-1,allsided
+Pinus cembra,Site1,April,0.8358625,10^5 ms-1,allsided
+Pinus cembra,Site1,August,0.8410553,10^5 ms-1,allsided
+Pinus cembra,Site2,Feb,0.7771576,10^5 ms-1,allsided
+Pinus cembra,Site2,April,0.44231093,10^5 ms-1,allsided
+Pinus cembra,Site2,August,0.680695,10^5 ms-1,allsided
+Picea abies,Site1,december,0.8909091,10^5 ms-1,allsided
+Picea abies,Site1,february,0.8,10^5 ms-1,allsided
+Picea abies,Site1,may,2.3090909,10^5 ms-1,allsided
+Picea abies,Site1,august,4.4,10^5 ms-1,allsided
+Picea abies,Site2,december,1.7636364,10^5 ms-1,allsided
+Picea abies,Site2,february,0.4,10^5 ms-1,allsided
+Picea abies,Site2,may,2.5636363,10^5 ms-1,allsided
+Picea abies,Site2,august,4.309091,10^5 ms-1,allsided
+Picea abies,Site3,december,1.3636364,10^5 ms-1,allsided
+Picea abies,Site3,february,2.2727273,10^5 ms-1,allsided
+Picea abies,Site3,may,1.9636364,10^5 ms-1,allsided
+Picea abies,Site3,august,1.4909091,10^5 ms-1,allsided

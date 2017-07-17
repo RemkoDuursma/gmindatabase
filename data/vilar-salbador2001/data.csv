@@ -1,0 +1,5 @@
+species,treatment,gmin,units,area
+Pinus halepensis,Control,2.354166667,mmol m-2 s-1,projected
+Pinus halepensis,MildSTress,2.3125,mmol m-2 s-1,projected
+Pinus halepensis,ModerateStress,1.770833333,mmol m-2 s-1,projected
+Pinus halepensis,StrongStress,1.6875,mmol m-2 s-1,projected

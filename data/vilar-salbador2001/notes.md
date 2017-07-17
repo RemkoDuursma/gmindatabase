@@ -1,0 +1,1 @@
+Mass-based transpiration rate was converted to area-based using an estimate of LMA (value ???)

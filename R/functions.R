@@ -18,7 +18,9 @@ read_data_dir <- function(path){
   # Unit conversions.
   raw$gmin <- mapply(convert_gmin_units, x=raw$gmin, units=raw$units, area=raw$area)
   
-  
+  # Average across measurements for a species.
+  # (Genotypes, dates, locations, etc.)
+  raw <- summaryBy(. ~ species, data=raw, FUN=mean, keep.names=TRUE, id=~source, na.rm=TRUE)
   
 raw[,c("species","gmin","source")]
 }
@@ -30,7 +32,8 @@ convert_gmin_units <- function(x, units, areabase){
   x * 
     switch(units,
              `10^5 ms-1` = 10^5 * 10^-3 / 41,
-             `mmol m-2 s-1` = 1) *
+             `mmol m-2 s-1` = 1,
+			 `cm s-1` = 10^-2 * 41 * 10^3) *
     switch(tolower(areabase),
            allsided = 2,
            projected = 1)

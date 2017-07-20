@@ -26,14 +26,17 @@ raw[,c("species","gmin","source")]
 }
 
 
-
+# Convert from one of several options to mmol m-2 s-1.
+# Assume mol m-3 = 41 (T 20C, Patm=101).
 convert_gmin_units <- function(x, units, areabase){
   
   x * 
     switch(units,
-             `10^5 ms-1` = 10^5 * 10^-3 / 41,
+             `10^5 ms-1` = 41 * 10^-5 * 10^3,
              `mmol m-2 s-1` = 1,
-			 `cm s-1` = 10^-2 * 41 * 10^3) *
+			       `cm s-1` = 10^-2 * 41 * 10^3,
+             `mm s-1` = 41  
+           ) *
     switch(tolower(areabase),
            allsided = 2,
            projected = 1)

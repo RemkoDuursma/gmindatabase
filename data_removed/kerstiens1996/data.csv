@@ -22,9 +22,9 @@ gmin,method,species,units,area,comments
 0.7,C,Alocasia macrorrhiza,10^5 ms-1,allsided,
 1.3,D,Ananas comosus,10^5 ms-1,allsided,
 11,E1,Arachis hypogaea,10^5 ms-1,allsided,
-3.6,D,Arctostaphylos uva ursi,10^5 ms-1,allsided,
+,D,Arctostaphylos uva ursi,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 7.4,D,Asarum europaeum,10^5 ms-1,allsided,
-6.9,D,Asarum europaeum,10^5 ms-1,allsided,
+,D,Asarum europaeum,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 5.6,C,Astragalus glycophyllos,10^5 ms-1,allsided,
 10,D,Avena sativa,10^5 ms-1,allsided,
 5,D,Beta vulgaris,10^5 ms-1,allsided,
@@ -32,7 +32,7 @@ gmin,method,species,units,area,comments
 1.2,C,Betula pubescens,10^5 ms-1,allsided,
 3.6,D,Betula pubescens,10^5 ms-1,allsided,
 7.4,C,Betula verrucosa,10^5 ms-1,allsided,
-7.9,D,Betula verrucosa,10^5 ms-1,allsided,
+,D,Betula verrucosa,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 0.8,D,Billbergia euphemiae,10^5 ms-1,allsided,
 0.9,D,Billbergia pyramidalis,10^5 ms-1,allsided,
 13,E1,Brachypodium pinnatum,10^5 ms-1,allsided,
@@ -40,7 +40,7 @@ gmin,method,species,units,area,comments
 3.5,D,Cajanus cajan,10^5 ms-1,allsided,
 28,D,Caltha palustris,10^5 ms-1,allsided,
 18,D,Caltha palustris,10^5 ms-1,allsided,
-14,D,Camellia sinensis,10^5 ms-1,allsided,
+,D,Camellia sinensis,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 0.5,A,Camellia sinensis,10^5 ms-1,allsided,
 49,E1,Capsicum annuum,10^5 ms-1,allsided,
 9,E1,Carex alba,10^5 ms-1,allsided,
@@ -70,14 +70,14 @@ gmin,method,species,units,area,comments
 6.5,C,Coffea robusta,10^5 ms-1,allsided,
 25,E1,Coix lacryma-jobi,10^5 ms-1,allsided,
 1.6,D,Coleus blumei,10^5 ms-1,allsided,
-8.3,D,Convolvulus arvensis,10^5 ms-1,allsided,
-9.9,D,Convolvulus arvensis,10^5 ms-1,allsided,
-15,D,Coronilla varia,10^5 ms-1,allsided,
-16,D,Coronilla varia,10^5 ms-1,allsided,
+,D,Convolvulus arvensis,10^5 ms-1,allsided,"Must be wrong value (cannot be recalculated, pers. comm. Koerner)"
+,D,Convolvulus arvensis,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
+,D,Coronilla varia,10^5 ms-1,allsided,"Must be wrong value (cannot be recalculated, pers. comm. Koerner)"
+,D,Coronilla varia,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 1.7,C,Corylus avellana,10^5 ms-1,allsided,
 3.9,D,Corylus avellana,10^5 ms-1,allsided,
 2,C,Corylus avellana,10^5 ms-1,allsided,
-13,D,Corylus avellana,10^5 ms-1,allsided,
+,D,Corylus avellana,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 10,E1,Corylus avellana,10^5 ms-1,allsided,
 2,D,Cryptanthus acaulis,10^5 ms-1,allsided,
 75,E1,Cucumis sativus,10^5 ms-1,allsided,
@@ -99,7 +99,7 @@ gmin,method,species,units,area,comments
 2.5,C,Fagus sylvatica,10^5 ms-1,allsided,
 5.6,D,Fagus sylvatica,10^5 ms-1,allsided,
 4.1,D,Fagus sylvatica,10^5 ms-1,allsided,
-6,D,Fagus sylvatica,10^5 ms-1,allsided,
+,D,Fagus sylvatica,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 5,E1,Fagus sylvatica,10^5 ms-1,allsided,
 5,C,Fagus sylvatica,10^5 ms-1,allsided,
 ,D,Festuca arundinacea,10^5 ms-1,allsided,Removed (value was wrong); recalculated in Grace 1974
@@ -124,7 +124,7 @@ gmin,method,species,units,area,comments
 5.6,E1,Gossypium hirsutum,10^5 ms-1,allsided,
 0.8,D,Gossypium lingulata,10^5 ms-1,allsided,
 0.3,A,Hedera helix,10^5 ms-1,allsided,
-1,C,Hedera helix,10^5 ms-1,allsided,
+,C,Hedera helix,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 0.9,C,Hedera helix,10^5 ms-1,allsided,
 0.6,A,Hedera helix,10^5 ms-1,allsided,
 0.3,C,Hedera helix,10^5 ms-1,allsided,
@@ -136,12 +136,12 @@ gmin,method,species,units,area,comments
 4,C,Hypericum androsaemum,10^5 ms-1,allsided,
 0.8,A,Ilex aquifolium,10^5 ms-1,allsided,
 1.1,A,Ilex aquifolium,10^5 ms-1,allsided,
-20,D,Impatiens noli tangere,10^5 ms-1,allsided,
-27,D,Impatiens parviflora,10^5 ms-1,allsided,
+,D,Impatiens noli tangere,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
+,D,Impatiens parviflora,10^5 ms-1,allsided,"Must be wrong value (cannot be recalculated, pers. comm. Koerner)"
 5.4,D,Juglans nigra,10^5 ms-1,allsided,
 4.1,D,Juglans regia,10^5 ms-1,allsided,
 2,A,Juglans regia,10^5 ms-1,allsided,
-25,D,Laburnum anagyroides,10^5 ms-1,allsided,
+,D,Laburnum anagyroides,10^5 ms-1,allsided,"Must be wrong value (cannot be recalculated, pers. comm. Koerner)"
 19,C,Lamium galeobdolon,10^5 ms-1,allsided,
 5,D,Larrea tridentata,10^5 ms-1,allsided,
 1.8,A,Laurus nobilis,10^5 ms-1,allsided,
@@ -170,18 +170,18 @@ gmin,method,species,units,area,comments
 6.6,C,Olea europaea,10^5 ms-1,allsided,
 5.5,A,Olea europaea,10^5 ms-1,allsided,
 5.1,C,Olea lancea,10^5 ms-1,allsided,
-0.2,D,Opuntia camanchica,10^5 ms-1,allsided,
+,D,Opuntia camanchica,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 15,E3,Oryza sativa,10^5 ms-1,allsided,
 26,E1,Oryza sativa,10^5 ms-1,allsided,
 23,E1,Oryza sativa,10^5 ms-1,allsided,
 5.3,D,Oxalis acetosella,10^5 ms-1,allsided,
-4.3,D,Oxalis acetosella,10^5 ms-1,allsided,
-8.6,D,Oxytropis pilosa,10^5 ms-1,allsided,
+,D,Oxalis acetosella,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
+,D,Oxytropis pilosa,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 10,D,Paeonia officinalis,10^5 ms-1,allsided,
 13,D,Panicum ramosum,10^5 ms-1,allsided,
 9.6,E1,Pelargonium zonale,10^5 ms-1,allsided,
 ,D,Pennisetum americanum,10^5 ms-1,allsided,Removed (recalculated in Muchow1989)
-9.9,D,Peucedanum cerveria,10^5 ms-1,allsided,
+,D,Peucedanum cerveria,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 ,D,Phalaris arundinacea,10^5 ms-1,allsided,Removed (value was wrong); recalculated in Nazrul-Islam1983
 52,E1,Phaseolus vulgaris,10^5 ms-1,allsided,
 5,E3,Phaseolus vulgaris,10^5 ms-1,allsided,
@@ -195,7 +195,7 @@ gmin,method,species,units,area,comments
 9,E2,Picea breweriana,10^5 ms-1,allsided,
 0.8,D,Picea engelmannii,10^5 ms-1,allsided,
 2,E3,Picea engelmannii,10^5 ms-1,allsided,
-1.2,D,Picea excelsa,10^5 ms-1,allsided,
+,D,Picea excelsa,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 44,D,Picea glauca,10^5 ms-1,allsided,
 1.3,D,Picea rubens,10^5 ms-1,allsided,
 1.1,D,Picea rubens,10^5 ms-1,allsided,
@@ -214,15 +214,15 @@ gmin,method,species,units,area,comments
 4.6,D,Pinus sylvestris,10^5 ms-1,allsided,
 1,D,Pinus sylvestris,10^5 ms-1,allsided,
 3,D,Pinus sylvestris,10^5 ms-1,allsided,
-1.1,D,Pinus sylvestris,10^5 ms-1,allsided,
+,D,Pinus sylvestris,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 1.1,D,Pinus sylvestris,10^5 ms-1,allsided,
 0.8,D,Pitcairnia macrochlamyus,10^5 ms-1,allsided,
 0.7,D,Pitcairnia undulata,10^5 ms-1,allsided,
 80,E1,Plantago major,10^5 ms-1,allsided,
 7.2,A,Polygonatum multiflorum,10^5 ms-1,allsided,
 5,C,Populus tremula,10^5 ms-1,allsided,
-6.3,D,Prenanthes purpurea,10^5 ms-1,allsided,
-5.5,D,Prenanthes purpurea,10^5 ms-1,allsided,
+,D,Prenanthes purpurea,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
+,D,Prenanthes purpurea,10^5 ms-1,allsided,"Must be wrong value (cannot be recalculated, pers. comm. Koerner)"
 0.7,C,Prunus avium,10^5 ms-1,allsided,
 3.7,D,Prunus avium,10^5 ms-1,allsided,
 0.3,D,Prunus avium,10^5 ms-1,allsided,
@@ -234,7 +234,7 @@ gmin,method,species,units,area,comments
 0.3,D,Pseudotsuga menziesii,10^5 ms-1,allsided,
 3,E2,Pseudotsuga menziesii,10^5 ms-1,allsided,
 10,D,Pulmonaria officinalis,10^5 ms-1,allsided,
-21,D,Pulmonaria officinalis,10^5 ms-1,allsided,
+,D,Pulmonaria officinalis,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 2.2,D,Puya,10^5 ms-1,allsided,
 1.2,A,Pyrus communis,10^5 ms-1,allsided,
 2.1,A,Pyrus communis,10^5 ms-1,allsided,
@@ -246,21 +246,21 @@ gmin,method,species,units,area,comments
 2.2,C,Quercus robur,10^5 ms-1,allsided,
 3,C,Quercus robur,10^5 ms-1,allsided,
 6.9,D,Quercus robur,10^5 ms-1,allsided,
-8.9,D,Quercus robur,10^5 ms-1,allsided,
+,D,Quercus robur,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 7.3,C,Quercus robur,10^5 ms-1,allsided,
 27,C,Quercus sessiliflora,10^5 ms-1,allsided,
 11,D,Quercus stellata,10^5 ms-1,allsided,
 8.4,C,Rhamnus alaternus,10^5 ms-1,allsided,
 11,C,Rhamnus alnifolius,10^5 ms-1,allsided,
 11,C,Rhamnus glandulosus,10^5 ms-1,allsided,
-5,D,Rhododendron ferrugineum,10^5 ms-1,allsided,
+,D,Rhododendron ferrugineum,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 2.4,E1,Rhododendron hybridum,10^5 ms-1,allsided,
 15,E1,Rosa,10^5 ms-1,allsided,
 ,D,Rumex acetosa,10^5 ms-1,allsided,Removed (value was wrong); recalculated in Nazrul-Islam1983
 11,D,Ruta graveolens,10^5 ms-1,allsided,
 0.5,D,Sabal palmetto,10^5 ms-1,allsided,
 0.1,A,Schefflera actinophylla,10^5 ms-1,allsided,
-14,D,Sedum maximum,10^5 ms-1,allsided,
+,D,Sedum maximum,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 14,E2,Sedum purpureum,10^5 ms-1,allsided,
 69,E1,Solanum melongena,10^5 ms-1,allsided,
 7.1,E1,Sorghum bicolor,10^5 ms-1,allsided,
@@ -274,8 +274,8 @@ gmin,method,species,units,area,comments
 8.6,E1,Sorghum bicolor,10^5 ms-1,allsided,
 4.5,E3,Sorghum dochna,10^5 ms-1,allsided,
 13,D,Stachys recta,10^5 ms-1,allsided,
-11,D,Stachys recta,10^5 ms-1,allsided,
-12,D,Stellaria nemorum,10^5 ms-1,allsided,
+,D,Stachys recta,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
+,D,Stellaria nemorum,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 18,E1,Suaeda maritima,10^5 ms-1,allsided,
 7.3,D,Tilia cordata,10^5 ms-1,allsided,
 0.8,D,Tillandsia achyrostachys,10^5 ms-1,allsided,
@@ -298,7 +298,7 @@ gmin,method,species,units,area,comments
 7.6,D,Vaccinium myrtillus,10^5 ms-1,allsided,
 12.5,D,Vaccinium uliginosum,10^5 ms-1,allsided,
 0.1,A,Vanilla planifolia,10^5 ms-1,allsided,
-28,D,Veronica beccabunga,10^5 ms-1,allsided,
+,D,Veronica beccabunga,10^5 ms-1,allsided,Recalculated (data was wrong) in Pisek Berger 1938
 6.6,D,Vicia sepum,10^5 ms-1,allsided,
 4.5,D,Vigna mungo,10^5 ms-1,allsided,
 3,D,Vigna unguiculata,10^5 ms-1,allsided,

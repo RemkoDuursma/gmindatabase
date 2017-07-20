@@ -1,0 +1,13 @@
+species,treatment,gmin,area,units
+Fagus sylvatica,control,10.57,allsided,10^5 ms-1
+Fagus sylvatica,control,7.45,allsided,10^5 ms-1
+Fagus sylvatica,SO2,11.86,allsided,10^5 ms-1
+Fagus sylvatica,O3,8.61,allsided,10^5 ms-1
+Acer pseudoplatanus,control,3.85,allsided,10^5 ms-1
+Acer pseudoplatanus,CO2,6.13,allsided,10^5 ms-1
+Betula pubescens,control,3.58,allsided,10^5 ms-1
+Betula pubescens,SO2 + NO2,29.86,allsided,10^5 ms-1
+Corylus avellana,control,3.91,allsided,10^5 ms-1
+Corylus avellana,NO,6.24,allsided,10^5 ms-1
+Prunus avium,control,3.67,allsided,10^5 ms-1
+Prunus avium,NO,5.69,allsided,10^5 ms-1

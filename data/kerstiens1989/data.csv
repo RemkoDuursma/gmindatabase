@@ -1,0 +1,3 @@
+species,treatment,gmin,units,area
+Fagus sylvatica,control,4.21,10^5 ms-1,allsided
+Fagus sylvatica,ozone and acid fog,4.6,10^5 ms-1,allsided

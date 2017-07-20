@@ -13,16 +13,7 @@ prepare <- function(raw){
 
 	# Here we are only interested in method D.
 	# One value is very high - cannot be right.
-	raw <- subset(raw, method == "D" & gmin < 100)
-	
-	# Number for Picea from Cowling & Kedrowski is definitely wrong (see its abstract)
-	raw$gmin[raw$gmin == 44] <- NA
-	
-	# Number for Picea rubens is not really measured with proper weight loss method
-	raw$gmin[raw$species == "Picea rubens" & raw$gmin == 24] <- NA
-	
-	# Much too high.
-	raw$gmin[raw$species == "Glycine max" & raw$gmin > 100] <- NA
+	raw <- subset(raw, method == "D")
 	
 raw	
 }

@@ -1,0 +1,13 @@
+species,genotype,treatment,gmin,area,units
+Avena sativa,Stormogul II,control,1.432926829,allsided,mmol m-2 s-1
+Avena sativa,Risto,control,0.796747967,allsided,mmol m-2 s-1
+Avena sativa,Sol II,control,0.743902439,allsided,mmol m-2 s-1
+Avena sativa,Selma,control,0.845528455,allsided,mmol m-2 s-1
+Avena sativa,Sang,control,0.617886179,allsided,mmol m-2 s-1
+Avena sativa,Pendek,control,0.829268293,allsided,mmol m-2 s-1
+Avena sativa,Stormogul II,water stress,0.831300813,allsided,mmol m-2 s-1
+Avena sativa,Risto,water stress,0.634146341,allsided,mmol m-2 s-1
+Avena sativa,Sol II,water stress,0.660569106,allsided,mmol m-2 s-1
+Avena sativa,Selma,water stress,0.644308943,allsided,mmol m-2 s-1
+Avena sativa,Sang,water stress,0.585365854,allsided,mmol m-2 s-1
+Avena sativa,Pendek,water stress,0.794715447,allsided,mmol m-2 s-1

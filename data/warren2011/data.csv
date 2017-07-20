@@ -1,0 +1,15 @@
+species,treatment,gmin,units,area
+Eucalyptus delegatensis,control,11,mmol m-2 s-1,projected
+Eucalyptus nitens,control,6.7,mmol m-2 s-1,projected
+Eucalyptus regnans,control,9,mmol m-2 s-1,projected
+Eucalyptus arenacea,control,4.8,mmol m-2 s-1,projected
+Eucalyptus socialis,control,4.5,mmol m-2 s-1,projected
+Acacia mangium,control,7,mmol m-2 s-1,projected
+Acacia maidenii,control,6,mmol m-2 s-1,projected
+Eucalyptus delegatensis,water stress,6,mmol m-2 s-1,projected
+Eucalyptus nitens,water stress,3.6,mmol m-2 s-1,projected
+Eucalyptus regnans,water stress,2.7,mmol m-2 s-1,projected
+Eucalyptus arenacea,water stress,2.9,mmol m-2 s-1,projected
+Eucalyptus socialis,water stress,2.6,mmol m-2 s-1,projected
+Acacia mangium,water stress,2.5,mmol m-2 s-1,projected
+Acacia maidenii,water stress,2.4,mmol m-2 s-1,projected

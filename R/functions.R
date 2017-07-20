@@ -49,7 +49,11 @@ rebuild_database <- function(){
   
   paths <- dir("data", full.names=TRUE)
                
-  l <- lapply(paths, read_data_dir)
+  l <- list()
+  for(i in seq_along(paths)){
+    message(sprintf("Adding %s", basename(paths[i])))
+    l[[i]] <- read_data_dir(paths[i])  
+  }
   
   dfr <- do.call(rbind, l)
   

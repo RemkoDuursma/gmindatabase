@@ -1,0 +1,7 @@
+species,treatment,gmin,units,area
+Picea sitchensis,control,0.57,mmol m-2 s-1,allsided
+Picea sitchensis,wind treatment,1.25,mmol m-2 s-1,allsided
+Picea sitchensis,recovery,1.32,mmol m-2 s-1,allsided
+Pinus sylvestris,control,0.45,mmol m-2 s-1,allsided
+Pinus sylvestris,wind treatment,0.52,mmol m-2 s-1,allsided
+Pinus sylvestris,recovery,0.61,mmol m-2 s-1,allsided

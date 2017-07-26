@@ -1,0 +1,208 @@
+species,Genotype,species_type,variable,gmin,units,area
+Glycine max,MCP006,cultivated,well-watered,0.23,mm s-1,projected
+Glycine max,Leichhardt,cultivated,well-watered,0.19,mm s-1,projected
+Glycine max,NK #1,cultivated,well-watered,0.33,mm s-1,projected
+Glycine max,A80017,cultivated,well-watered,0.27,mm s-1,projected
+Glycine max,Williams,cultivated,well-watered,0.33,mm s-1,projected
+Glycine max,Ecuador 1,cultivated,well-watered,0.31,mm s-1,projected
+Glycine max,Siatsa 194,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,ISRA 44-A/73,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,UFV-1,cultivated,well-watered,0.32,mm s-1,projected
+Glycine max,G2120,cultivated,well-watered,0.23,mm s-1,projected
+Glycine max,Mamloxi,cultivated,well-watered,0.31,mm s-1,projected
+Glycine max,CPI 26671,cultivated,well-watered,0.28,mm s-1,projected
+Glycine max,S5,cultivated,well-watered,0.28,mm s-1,projected
+Glycine max,CNS,cultivated,well-watered,0.3,mm s-1,projected
+Glycine max,B2H55F4/196,cultivated,well-watered,0.32,mm s-1,projected
+Glycine max,3H55F4/88/1,cultivated,well-watered,0.27,mm s-1,projected
+Glycine max,Biloxi,cultivated,well-watered,0.33,mm s-1,projected
+Glycine max,Kedele,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,Fiskeby V,cultivated,well-watered,0.47,mm s-1,projected
+Glycine max,66-G-3,cultivated,well-watered,0.44,mm s-1,projected
+Glycine max,No 29,cultivated,well-watered,0.26,mm s-1,projected
+Glycine max,FF73,cultivated,well-watered,0.3,mm s-1,projected
+Glycine max,SJ4,cultivated,well-watered,0.23,mm s-1,projected
+Glycine max,Jupiter,cultivated,well-watered,0.31,mm s-1,projected
+Glycine max,SJ1,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,CPAC 46-76,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,CPAC 527-76,cultivated,well-watered,0.23,mm s-1,projected
+Glycine max,CPAC 453-76,cultivated,well-watered,0.3,mm s-1,projected
+Glycine max,TGM 344,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,TGX 307-057D,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,TGX 332A-060,cultivated,well-watered,0.36,mm s-1,projected
+Glycine max,TGX 356-063D,cultivated,well-watered,0.32,mm s-1,projected
+Glycine max,BM,cultivated,well-watered,0.31,mm s-1,projected
+Glycine max,DB1593,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,Davis,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,Santa Maria,cultivated,well-watered,0.3,mm s-1,projected
+Glycine max,Ross,cultivated,well-watered,0.4,mm s-1,projected
+Glycine max,Daintree,cultivated,well-watered,0.28,mm s-1,projected
+Glycine max,K8,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,Fitzroy,cultivated,well-watered,0.47,mm s-1,projected
+Glycine max,P44,cultivated,well-watered,0.3,mm s-1,projected
+Glycine max,P46,cultivated,well-watered,0.36,mm s-1,projected
+Glycine max,Buchanan,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,R114,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,R129,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,R23,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,Canapolis,cultivated,well-watered,0.23,mm s-1,projected
+Glycine max,UFV 72-1,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,Valder,cultivated,well-watered,0.36,mm s-1,projected
+Glycine max,Farrer,cultivated,well-watered,0.45,mm s-1,projected
+Glycine max,Hill,cultivated,well-watered,0.37,mm s-1,projected
+Glycine max,Manark,cultivated,well-watered,0.25,mm s-1,projected
+Glycine max,A5939,cultivated,well-watered,0.3,mm s-1,projected
+Glycine max,A14-37,cultivated,well-watered,0.34,mm s-1,projected
+Glycine max,Wills,cultivated,well-watered,0.27,mm s-1,projected
+Glycine max,NN Clark 63,cultivated,well-watered,0.29,mm s-1,projected
+Glycine max,IAC-L-131,cultivated,well-watered,0.35,mm s-1,projected
+Glycine max,Bragg,cultivated,well-watered,0.25,mm s-1,projected
+Glycine soja,G8,wild,well-watered,0.25,mm s-1,projected
+Glycine soja,CPI 96905,wild,well-watered,0.21,mm s-1,projected
+Glycine latifolia,ACC 521,wild,well-watered,0.28,mm s-1,projected
+Glycine tomentella,ACC 547,wild,well-watered,0.83,mm s-1,projected
+Glycine canescens,ACC 548,wild,well-watered,0.35,mm s-1,projected
+Glycine canescens,ACC 590,wild,well-watered,0.25,mm s-1,projected
+Glycine tabacina,ACC 549,wild,well-watered,0.1,mm s-1,projected
+Glycine tabacina,ACC 563,wild,well-watered,0.19,mm s-1,projected
+Glycine clandestina,ACC 554,wild,well-watered,0.24,mm s-1,projected
+Glycine tabacina,ACC 574,wild,well-watered,0.08,mm s-1,projected
+Glycine argyrea,ACC 578,wild,well-watered,0.34,mm s-1,projected
+Glycine max,MCP006,cultivated,moderately stressed,0.23,mm s-1,projected
+Glycine max,Leichhardt,cultivated,moderately stressed,0.13,mm s-1,projected
+Glycine max,NK #1,cultivated,moderately stressed,0.15,mm s-1,projected
+Glycine max,A80017,cultivated,moderately stressed,0.14,mm s-1,projected
+Glycine max,Williams,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,Ecuador 1,cultivated,moderately stressed,0.13,mm s-1,projected
+Glycine max,Siatsa 194,cultivated,moderately stressed,0.14,mm s-1,projected
+Glycine max,ISRA 44-A/73,cultivated,moderately stressed,0.19,mm s-1,projected
+Glycine max,UFV-1,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,G2120,cultivated,moderately stressed,0.13,mm s-1,projected
+Glycine max,Mamloxi,cultivated,moderately stressed,0.15,mm s-1,projected
+Glycine max,CPI 26671,cultivated,moderately stressed,0.2,mm s-1,projected
+Glycine max,S5,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,CNS,cultivated,moderately stressed,0.24,mm s-1,projected
+Glycine max,B2H55F4/196,cultivated,moderately stressed,0.21,mm s-1,projected
+Glycine max,3H55F4/88/1,cultivated,moderately stressed,0.14,mm s-1,projected
+Glycine max,Biloxi,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine max,Kedele,cultivated,moderately stressed,0.21,mm s-1,projected
+Glycine max,Fiskeby V,cultivated,moderately stressed,0.22,mm s-1,projected
+Glycine max,66-G-3,cultivated,moderately stressed,0.15,mm s-1,projected
+Glycine max,No 29,cultivated,moderately stressed,0.13,mm s-1,projected
+Glycine max,FF73,cultivated,moderately stressed,0.18,mm s-1,projected
+Glycine max,SJ4,cultivated,moderately stressed,0.12,mm s-1,projected
+Glycine max,Jupiter,cultivated,moderately stressed,0.13,mm s-1,projected
+Glycine max,SJ1,cultivated,moderately stressed,0.13,mm s-1,projected
+Glycine max,CPAC 46-76,cultivated,moderately stressed,0.18,mm s-1,projected
+Glycine max,CPAC 527-76,cultivated,moderately stressed,0.12,mm s-1,projected
+Glycine max,CPAC 453-76,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,TGM 344,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine max,TGX 307-057D,cultivated,moderately stressed,0.14,mm s-1,projected
+Glycine max,TGX 332A-060,cultivated,moderately stressed,0.14,mm s-1,projected
+Glycine max,TGX 356-063D,cultivated,moderately stressed,0.2,mm s-1,projected
+Glycine max,BM,cultivated,moderately stressed,0.18,mm s-1,projected
+Glycine max,DB1593,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine max,Davis,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,Santa Maria,cultivated,moderately stressed,0.18,mm s-1,projected
+Glycine max,Ross,cultivated,moderately stressed,0.23,mm s-1,projected
+Glycine max,Daintree,cultivated,moderately stressed,0.18,mm s-1,projected
+Glycine max,K8,cultivated,moderately stressed,0.19,mm s-1,projected
+Glycine max,Fitzroy,cultivated,moderately stressed,0.15,mm s-1,projected
+Glycine max,P44,cultivated,moderately stressed,0.15,mm s-1,projected
+Glycine max,P46,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,Buchanan,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine max,R114,cultivated,moderately stressed,0.19,mm s-1,projected
+Glycine max,R129,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,R23,cultivated,moderately stressed,0.17,mm s-1,projected
+Glycine max,Canapolis,cultivated,moderately stressed,0.14,mm s-1,projected
+Glycine max,UFV 72-1,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine max,Valder,cultivated,moderately stressed,0.15,mm s-1,projected
+Glycine max,Farrer,cultivated,moderately stressed,0.14,mm s-1,projected
+Glycine max,Hill,cultivated,moderately stressed,0.13,mm s-1,projected
+Glycine max,Manark,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine max,A5939,cultivated,moderately stressed,0.12,mm s-1,projected
+Glycine max,A14-37,cultivated,moderately stressed,0.18,mm s-1,projected
+Glycine max,Wills,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine max,NN Clark 63,cultivated,moderately stressed,0.12,mm s-1,projected
+Glycine max,IAC-L-131,cultivated,moderately stressed,0.26,mm s-1,projected
+Glycine max,Bragg,cultivated,moderately stressed,0.16,mm s-1,projected
+Glycine soja,G8,wild,moderately stressed,0.29,mm s-1,projected
+Glycine soja,CPI 96905,wild,moderately stressed,0.18,mm s-1,projected
+Glycine latifolia,ACC 521,wild,moderately stressed,0.17,mm s-1,projected
+Glycine tomentella,ACC 547,wild,moderately stressed,0.28,mm s-1,projected
+Glycine canescens,ACC 548,wild,moderately stressed,0.27,mm s-1,projected
+Glycine canescens,ACC 590,wild,moderately stressed,0.28,mm s-1,projected
+Glycine tabacina,ACC 549,wild,moderately stressed,0.12,mm s-1,projected
+Glycine tabacina,ACC 563,wild,moderately stressed,0.22,mm s-1,projected
+Glycine clandestina,ACC 554,wild,moderately stressed,0.35,mm s-1,projected
+Glycine tabacina,ACC 574,wild,moderately stressed,0.1,mm s-1,projected
+Glycine argyrea,ACC 578,wild,moderately stressed,0.15,mm s-1,projected
+Glycine max,MCP006,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,Leichhardt,cultivated,near lethal,0.09,mm s-1,projected
+Glycine max,NK #1,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,A80017,cultivated,near lethal,0.17,mm s-1,projected
+Glycine max,Williams,cultivated,near lethal,0.09,mm s-1,projected
+Glycine max,Ecuador 1,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,Siatsa 194,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,ISRA 44-A/73,cultivated,near lethal,0.09,mm s-1,projected
+Glycine max,UFV-1,cultivated,near lethal,0.14,mm s-1,projected
+Glycine max,G2120,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,Mamloxi,cultivated,near lethal,0.1,mm s-1,projected
+Glycine max,CPI 26671,cultivated,near lethal,NA,mm s-1,projected
+Glycine max,S5,cultivated,near lethal,0.12,mm s-1,projected
+Glycine max,CNS,cultivated,near lethal,NA,mm s-1,projected
+Glycine max,B2H55F4/196,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,3H55F4/88/1,cultivated,near lethal,NA,mm s-1,projected
+Glycine max,Biloxi,cultivated,near lethal,0.1,mm s-1,projected
+Glycine max,Kedele,cultivated,near lethal,0.21,mm s-1,projected
+Glycine max,Fiskeby V,cultivated,near lethal,NA,mm s-1,projected
+Glycine max,66-G-3,cultivated,near lethal,0.2,mm s-1,projected
+Glycine max,No 29,cultivated,near lethal,0.1,mm s-1,projected
+Glycine max,FF73,cultivated,near lethal,0.16,mm s-1,projected
+Glycine max,SJ4,cultivated,near lethal,0.12,mm s-1,projected
+Glycine max,Jupiter,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,SJ1,cultivated,near lethal,0.07,mm s-1,projected
+Glycine max,CPAC 46-76,cultivated,near lethal,0.14,mm s-1,projected
+Glycine max,CPAC 527-76,cultivated,near lethal,0.12,mm s-1,projected
+Glycine max,CPAC 453-76,cultivated,near lethal,0.17,mm s-1,projected
+Glycine max,TGM 344,cultivated,near lethal,0.14,mm s-1,projected
+Glycine max,TGX 307-057D,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,TGX 332A-060,cultivated,near lethal,0.13,mm s-1,projected
+Glycine max,TGX 356-063D,cultivated,near lethal,0.19,mm s-1,projected
+Glycine max,BM,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,DB1593,cultivated,near lethal,0.1,mm s-1,projected
+Glycine max,Davis,cultivated,near lethal,0.12,mm s-1,projected
+Glycine max,Santa Maria,cultivated,near lethal,0.12,mm s-1,projected
+Glycine max,Ross,cultivated,near lethal,0.17,mm s-1,projected
+Glycine max,Daintree,cultivated,near lethal,0.07,mm s-1,projected
+Glycine max,K8,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,Fitzroy,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,P44,cultivated,near lethal,NA,mm s-1,projected
+Glycine max,P46,cultivated,near lethal,0.07,mm s-1,projected
+Glycine max,Buchanan,cultivated,near lethal,0.15,mm s-1,projected
+Glycine max,R114,cultivated,near lethal,0.1,mm s-1,projected
+Glycine max,R129,cultivated,near lethal,NA,mm s-1,projected
+Glycine max,R23,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,Canapolis,cultivated,near lethal,0.09,mm s-1,projected
+Glycine max,UFV 72-1,cultivated,near lethal,0.16,mm s-1,projected
+Glycine max,Valder,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,Farrer,cultivated,near lethal,0.1,mm s-1,projected
+Glycine max,Hill,cultivated,near lethal,0.1,mm s-1,projected
+Glycine max,Manark,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,A5939,cultivated,near lethal,0.11,mm s-1,projected
+Glycine max,A14-37,cultivated,near lethal,NA,mm s-1,projected
+Glycine max,Wills,cultivated,near lethal,0.13,mm s-1,projected
+Glycine max,NN Clark 63,cultivated,near lethal,0.13,mm s-1,projected
+Glycine max,IAC-L-131,cultivated,near lethal,0.2,mm s-1,projected
+Glycine max,Bragg,cultivated,near lethal,0.1,mm s-1,projected
+Glycine soja,G8,wild,near lethal,0.13,mm s-1,projected
+Glycine soja,CPI 96905,wild,near lethal,0.12,mm s-1,projected
+Glycine latifolia,ACC 521,wild,near lethal,0.12,mm s-1,projected
+Glycine tomentella,ACC 547,wild,near lethal,0.29,mm s-1,projected
+Glycine canescens,ACC 548,wild,near lethal,0.32,mm s-1,projected
+Glycine canescens,ACC 590,wild,near lethal,0.1,mm s-1,projected
+Glycine tabacina,ACC 549,wild,near lethal,0.1,mm s-1,projected
+Glycine tabacina,ACC 563,wild,near lethal,0.2,mm s-1,projected
+Glycine clandestina,ACC 554,wild,near lethal,0.2,mm s-1,projected
+Glycine tabacina,ACC 574,wild,near lethal,0.29,mm s-1,projected
+Glycine argyrea,ACC 578,wild,near lethal,0.16,mm s-1,projected

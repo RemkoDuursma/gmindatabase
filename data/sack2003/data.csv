@@ -1,0 +1,11 @@
+species,leaf_type,gmin,units,area
+Acer rubrum,sun,4.32662789,mmol m-2 s-1,projected
+Acer rubrum,shade,4.196396652,mmol m-2 s-1,projected
+Acer saccharum,shade,4.191800255,mmol m-2 s-1,projected
+Acer saccharum,sun,3.556135622,mmol m-2 s-1,projected
+Betula papyrifera,shade,4.48545893,mmol m-2 s-1,projected
+Betula papyrifera,sun,5.671329267,mmol m-2 s-1,projected
+Hedera helix,shade,0.443353667,mmol m-2 s-1,projected
+Quercus rubra,sun,2.279699248,mmol m-2 s-1,projected
+Vitis labrusca,sun,8.136700241,mmol m-2 s-1,projected
+Vitis labrusca,shade,3.148588452,mmol m-2 s-1,projected

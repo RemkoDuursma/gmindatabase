@@ -1,0 +1,23 @@
+species,Genotype,season,gmin,units,area
+Oryza sativa,IR 64,dry season,17.2,mmol m-2 s-1,projected
+Oryza sativa,WAB1159-4-10-15-1-3,dry season,16.7,mmol m-2 s-1,projected
+Oryza sativa,IR 55423-01,dry season,16.4,mmol m-2 s-1,projected
+Oryza sativa,B6144-MR-6-0-0,dry season,16.2,mmol m-2 s-1,projected
+Oryza sativa,Moroberekan,dry season,16.2,mmol m-2 s-1,projected
+Oryza sativa,WAB450-IBP-38-HB,dry season,14.6,mmol m-2 s-1,projected
+Oryza glaberrima,Tog 5681,dry season,13.9,mmol m-2 s-1,projected
+Oryza sativa,Khao dam,dry season,12.7,mmol m-2 s-1,projected
+Oryza glaberrima,IG10,dry season,12.1,mmol m-2 s-1,projected
+Oryza glaberrima,CG14,dry season,11.6,mmol m-2 s-1,projected
+Oryza sativa,WITA4,wet season,26.9,mmol m-2 s-1,projected
+Oryza sativa,IR64,wet season,23.2,mmol m-2 s-1,projected
+Oryza glaberrima,Tog 5681,wet season,22.9,mmol m-2 s-1,projected
+Oryza sativa,Moroberekan,wet season,22.3,mmol m-2 s-1,projected
+Oryza sativa x O. glaberrima,WAB450-IBP-38-HB,wet season,22,mmol m-2 s-1,projected
+Oryza sativa,B6144-MR-6-0-0,wet season,21.7,mmol m-2 s-1,projected
+Oryza sativa,WAB56-104,wet season,21.1,mmol m-2 s-1,projected
+Oryza sativa,IR 55423-01,wet season,20.3,mmol m-2 s-1,projected
+Oryza sativa,Khao dam,wet season,20.1,mmol m-2 s-1,projected
+Oryza sativa x O. glaberrima,WAB1159-4-10-15-1-3,wet season,19.8,mmol m-2 s-1,projected
+Oryza glaberrima,IG10,wet season,19.4,mmol m-2 s-1,projected
+Oryza glaberrima,CG14,wet season,17.2,mmol m-2 s-1,projected

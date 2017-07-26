@@ -11,3 +11,5 @@ gmindat <- rebuild_database()
 nrow(gmindat)
 length(unique(gmindat$species))
 
+
+

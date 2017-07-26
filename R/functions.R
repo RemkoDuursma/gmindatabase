@@ -1,4 +1,4 @@
-read_data_dir <- function(path){
+read_data_dir <- function(path, average=TRUE){
   
   raw <- read.csv(file.path(path, "data.csv"), stringsAsFactors = FALSE)  
   
@@ -20,7 +20,9 @@ read_data_dir <- function(path){
   
   # Average across measurements for a species.
   # (Genotypes, dates, locations, etc.)
-  raw <- summaryBy(. ~ species, data=raw, FUN=mean, keep.names=TRUE, id=~source, na.rm=TRUE)
+  if(average){
+    raw <- summaryBy(. ~ species, data=raw, FUN=mean, keep.names=TRUE, id=~source, na.rm=TRUE)
+  }
   
 raw[,c("species","gmin","source")]
 }

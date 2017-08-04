@@ -1,0 +1,25 @@
+species,foliar_age,area,units,month,gmin
+Tsuga canadensis,current,allsided,mm s-1,January,0.115
+Tsuga canadensis,one-year-old,allsided,mm s-1,January,0.201
+Pinus strobus,current,allsided,mm s-1,January,0.032
+Pinus strobus,one-year-old,allsided,mm s-1,January,0.028
+Pinus resinosa,current,allsided,mm s-1,January,0.097
+Pinus resinosa,one-year-old,allsided,mm s-1,January,0.142
+Pinus rubens,current,allsided,mm s-1,January,0.031
+Pinus rubens,one-year-old,allsided,mm s-1,January,0.06
+Tsuga canadensis,current,allsided,mm s-1,February,0.039
+Tsuga canadensis,one-year-old,allsided,mm s-1,February,0.167
+Pinus strobus,current,allsided,mm s-1,February,0.031
+Pinus strobus,one-year-old,allsided,mm s-1,February,0.021
+Pinus resinosa,current,allsided,mm s-1,February,0.101
+Pinus resinosa,one-year-old,allsided,mm s-1,February,0.099
+Pinus rubens,current,allsided,mm s-1,February,0.009
+Pinus rubens,one-year-old,allsided,mm s-1,February,0.032
+Tsuga canadensis,current,allsided,mm s-1,March,0.041
+Tsuga canadensis,one-year-old,allsided,mm s-1,March,0.197
+Pinus strobus,current,allsided,mm s-1,March,0.037
+Pinus strobus,one-year-old,allsided,mm s-1,March,0.031
+Pinus resinosa,current,allsided,mm s-1,March,0.089
+Pinus resinosa,one-year-old,allsided,mm s-1,March,0.132
+Pinus rubens,current,allsided,mm s-1,March,0.008
+Pinus rubens,one-year-old,allsided,mm s-1,March,0.029

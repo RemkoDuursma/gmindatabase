@@ -1,0 +1,13 @@
+species,site,tree_age,gmin,units,area
+Robinia pseudoacacia,Tableland,2.5,15.57661536,mmol m-2 s-1,projected
+Robinia pseudoacacia,Tableland,8,12.87397796,mmol m-2 s-1,projected
+Robinia pseudoacacia,Tableland,24,10.8285509,mmol m-2 s-1,projected
+Robinia pseudoacacia,Slopeland,2.5,14.77976701,mmol m-2 s-1,projected
+Robinia pseudoacacia,Slopeland,8,10.71196107,mmol m-2 s-1,projected
+Robinia pseudoacacia,Slopeland,24,6.972760303,mmol m-2 s-1,projected
+Populus simonii,Tableland,4,11.35612396,mmol m-2 s-1,projected
+Populus simonii,Tableland,14,10.67595847,mmol m-2 s-1,projected
+Populus simonii,Tableland,24,6.785258365,mmol m-2 s-1,projected
+Populus simonii,Slopeland,4,9.143591784,mmol m-2 s-1,projected
+Populus simonii,Slopeland,14,8.185382922,mmol m-2 s-1,projected
+Populus simonii,Slopeland,24,5.861959005,mmol m-2 s-1,projected

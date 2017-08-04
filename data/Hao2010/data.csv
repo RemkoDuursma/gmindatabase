@@ -1,0 +1,11 @@
+species,growthform,gmin,LMA,units,area
+Ficus benjamina,Hemiepiphytic,0.6,99.2,mmol m-2 s-1,projected
+Ficus concinna,Hemiepiphytic,3.22,87.3,mmol m-2 s-1,projected
+Ficus curtipes,Hemiepiphytic,0.71,154.7,mmol m-2 s-1,projected
+Ficus religosa,Hemiepiphytic,4.3,85.2,mmol m-2 s-1,projected
+Ficus tinctoria,Hemiepiphytic,1.83,83.1,mmol m-2 s-1,projected
+Ficus auriculata,Non-hemiepiphytic,9.14,67.4,mmol m-2 s-1,projected
+Ficus esquiroliana,Non-hemiepiphytic,7.65,48.7,mmol m-2 s-1,projected
+Ficus hispida,Non-hemiepiphytic,16.76,93.6,mmol m-2 s-1,projected
+Ficus racemosa,Non-hemiepiphytic,7.26,50.2,mmol m-2 s-1,projected
+Ficus semicordata,Non-hemiepiphytic,12.55,80.6,mmol m-2 s-1,projected

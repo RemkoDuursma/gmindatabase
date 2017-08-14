@@ -4,6 +4,9 @@ read_data_dir <- function(path, average=TRUE){
   
   studyname <- basename(path)
   
+  refs <- ReadBib("references/references.bib")
+  ref_cite <- citation_data(studyname, refs=refs)
+  
   prepscript <- file.path(path, "prepare.R")
   if(file.exists(prepscript)){
     source(prepscript, local=TRUE)
@@ -13,7 +16,8 @@ read_data_dir <- function(path, average=TRUE){
     raw <- raw[!is.na(raw$gmin),]
   }
   
-  raw$source <- studyname
+  raw$datasource <- studyname
+  raw$citation <- ref_cite
 
   # Unit conversions.
   raw$gmin <- mapply(convert_gmin_units, x=raw$gmin, units=raw$units, area=raw$area)
@@ -21,10 +25,24 @@ read_data_dir <- function(path, average=TRUE){
   # Average across measurements for a species.
   # (Genotypes, dates, locations, etc.)
   if(average){
-    raw <- summaryBy(. ~ species, data=raw, FUN=mean, keep.names=TRUE, id=~source, na.rm=TRUE)
+    raw <- summaryBy(. ~ species, data=raw, FUN=mean, keep.names=TRUE, id=~datasource+citation, na.rm=TRUE)
   }
   
-raw[,c("species","gmin","source")]
+raw[,c("species","gmin","datasource","citation")]
+}
+
+
+citation_data <- function(studyname, refs=NULL){
+  
+  if(is.null(refs))refs <- ReadBib("references/references.bib")
+  
+  if(grepl("0000", studyname)){
+    auth <- Hmisc::capitalize(gsub("0000","", studyname))
+    return(sprintf("%s, unpublished.", auth))
+  } else {
+    return(Citet(refs[studyname], .opts=list(max.names=2)))
+  }
+  
 }
 
 

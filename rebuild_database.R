@@ -1,7 +1,7 @@
 # See README.md
 
 if(!require(pacman))install.packages("pacman")
-pacman::p_load(doBy)
+pacman::p_load(doBy, RefManageR)
 
 
 source("R/functions.R")

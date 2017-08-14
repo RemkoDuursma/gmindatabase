@@ -20,7 +20,7 @@ read_data_dir <- function(path, average=TRUE){
   raw$citation <- ref_cite
 
   # Unit conversions.
-  raw$gmin <- mapply(convert_gmin_units, x=raw$gmin, units=raw$units, area=raw$area)
+  raw$gmin <- mapply(convert_gmin_units, x=raw$gmin, units=raw$units, area=raw$area, species=raw$species)
   
   # Average across measurements for a species.
   # (Genotypes, dates, locations, etc.)
@@ -40,7 +40,7 @@ citation_data <- function(studyname, refs=NULL){
     auth <- Hmisc::capitalize(gsub("0000","", studyname))
     return(sprintf("%s, unpublished.", auth))
   } else {
-    return(Citet(refs[studyname], .opts=list(max.names=2)))
+    return(suppressMessages(Citet(refs[studyname], .opts=list(max.names=2))))
   }
   
 }
@@ -48,7 +48,7 @@ citation_data <- function(studyname, refs=NULL){
 
 # Convert from one of several options to mmol m-2 s-1.
 # Assume mol m-3 = 41 (T 20C, Patm=101).
-convert_gmin_units <- function(x, units, areabase){
+convert_gmin_units <- function(x, units, areabase, species){
   
   x * 
     switch(units,
@@ -58,11 +58,39 @@ convert_gmin_units <- function(x, units, areabase){
              `mm s-1` = 41  
            ) *
     switch(tolower(areabase),
-           allsided = 2,
+           allsided = conv_allsided(species),
            projected = 1)
   
   
 }
+
+
+conv_allsided <- function(species){
+  
+  # lambda1 = projected area / half-total surface area.
+  
+  # Mean of lambda1 in Barclay & Goodman (2000, Table 3), non-pine.
+  nonpine_lambda1 <- mean(c(0.873, 0.92, 0.879, 0.864, 0.839))
+
+  # pine, Barclay & Goodman (2000, Table 3)
+  pine_lambda1 <- 0.778
+  
+  if(grepl("pinus", species, ignore.case = TRUE)){
+    return(1 / (pine_lambda1/2))
+  }
+  con_gen <- c("abies","picea","pseudotsuga","cupressus","larix",
+               "juniperus","metasequoia","thuja","tsuga")
+  grp <- paste(con_gen, collapse="|")
+  if(grepl(grp, species, ignore.case=TRUE)){
+    return(1 / (nonpine_lambda1/2))
+  }
+
+return(2)
+}
+
+
+
+
 
 
 rebuild_database <- function(){

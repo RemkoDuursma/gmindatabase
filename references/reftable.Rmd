@@ -1,0 +1,48 @@
+---
+title: "References"
+author: ""
+date: ""
+output: html_document
+---
+
+```{r, echo=FALSE, results='asis'}
+format_ref <- function(x){
+  
+  x$title <- gsub("{","", x$title, fixed=T)
+  x$title <- gsub("}","", x$title, fixed=T)
+  
+  v <- c(#paste(as.character(x$author), collapse=", "),
+    format_authors(x),
+    paste0(x$year, "."),
+    paste0(x$title, "."),
+    paste0("_", x$journal, "_,"),
+    paste0(x$volume, ","),
+    gsub("--","-",x$pages),
+    ".")
+  paste(v, collapse=" ") 
+}
+
+
+format_author <- function(a){
+  initials <- paste(paste0(substr(a$given,1,1),"."), collapse="")
+  lastname <- paste(a$family, collapse=" ")
+  paste(lastname, initials, sep=", ")
+}
+
+format_authors <- function(x){
+  paste(sapply(x$author, format_author), collapse=", ")
+}
+
+# cat vector as numbered markdown list (chunk must have results='asis')
+vector_to_nrlist <- function(x){
+  cat(paste(1:length(x), ". ", x, "\n\n"))
+}
+
+library(RefManageR)
+r <- ReadBib("references.bib")
+
+refs_formatted <- sapply(r, format_ref)
+
+vector_to_nrlist(refs_formatted)
+```
+

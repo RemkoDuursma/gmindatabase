@@ -1,0 +1,51 @@
+species,genotype,growing_condition,day,comment,gmin,area,units
+Arachis hypogaea,CHAMPS,Greenhouse,,,3.67,projected,mmol m-2 s-1
+Arachis hypogaea,Sugg,Greenhouse,,,3.56,projected,mmol m-2 s-1
+Arachis hypogaea,VT024051,Greenhouse,,,3.2,projected,mmol m-2 s-1
+Arachis hypogaea,Florida Fancy,Greenhouse,,,3.15,projected,mmol m-2 s-1
+Arachis hypogaea,N05008,Greenhouse,,greenhouse 1,2.51,projected,mmol m-2 s-1
+Arachis hypogaea,N05008,Greenhouse,,greenhouse 2,2.97,projected,mmol m-2 s-1
+Arachis hypogaea,Perry,Greenhouse,,,2.96,projected,mmol m-2 s-1
+Arachis hypogaea,N05006,Greenhouse,,,2.89,projected,mmol m-2 s-1
+Arachis hypogaea,Gregory,Greenhouse,,,2.78,projected,mmol m-2 s-1
+Arachis hypogaea,NC-V11,Greenhouse,,,2.77,projected,mmol m-2 s-1
+Arachis hypogaea,VT004152,Greenhouse,,,2.71,projected,mmol m-2 s-1
+Arachis hypogaea,N04074FCT,Greenhouse,,,2.7,projected,mmol m-2 s-1
+Arachis hypogaea,TMV 2,Greenhouse,,greenhouse 1,1.72,projected,mmol m-2 s-1
+Arachis hypogaea,TMV 2,Greenhouse,,greenhouse 2,2.68,projected,mmol m-2 s-1
+Arachis hypogaea,Phillips,Greenhouse,,,2.23,projected,mmol m-2 s-1
+Arachis hypogaea,VA 98R,Greenhouse,,,2.16,projected,mmol m-2 s-1
+Arachis hypogaea,PI 497579,Greenhouse,,,3.17,projected,mmol m-2 s-1
+Arachis hypogaea,PI 298639,Greenhouse,,,1.71,projected,mmol m-2 s-1
+Arachis hypogaea,ICGV 86388,Greenhouse,,,2.5,projected,mmol m-2 s-1
+Arachis hypogaea,HTS 02-05,Greenhouse,,,2.43,projected,mmol m-2 s-1
+Arachis hypogaea,HTS 02-05,Field,1,,9.09,projected,mmol m-2 s-1
+Arachis hypogaea,HTS 02-05,Field,18,,6.42,projected,mmol m-2 s-1
+Arachis hypogaea,HTS 02-05,Field,31,,10.25,projected,mmol m-2 s-1
+Arachis hypogaea,HTS 02-05,Field,36,,11.68,projected,mmol m-2 s-1
+Arachis hypogaea,HTS 02-05,Field,41,,18.02,projected,mmol m-2 s-1
+Arachis hypogaea,N05008,Field,1,,7.88,projected,mmol m-2 s-1
+Arachis hypogaea,N05008,Field,18,,6.68,projected,mmol m-2 s-1
+Arachis hypogaea,N05008,Field,31,,13.51,projected,mmol m-2 s-1
+Arachis hypogaea,N05008,Field,36,,11.54,projected,mmol m-2 s-1
+Arachis hypogaea,N05008,Field,41,,14.5,projected,mmol m-2 s-1
+Arachis hypogaea,N05006,Field,1,,6.84,projected,mmol m-2 s-1
+Arachis hypogaea,N05006,Field,18,,5.68,projected,mmol m-2 s-1
+Arachis hypogaea,N05006,Field,31,,13,projected,mmol m-2 s-1
+Arachis hypogaea,N05006,Field,36,,14.51,projected,mmol m-2 s-1
+Arachis hypogaea,N05006,Field,41,,13.29,projected,mmol m-2 s-1
+Arachis hypogaea,Georgia Green,Field,1,,6.65,projected,mmol m-2 s-1
+Arachis hypogaea,Georgia Green,Field,18,,6.23,projected,mmol m-2 s-1
+Arachis hypogaea,Georgia Green,Field,31,,7.86,projected,mmol m-2 s-1
+Arachis hypogaea,Georgia Green,Field,36,,10.63,projected,mmol m-2 s-1
+Arachis hypogaea,Georgia Green,Field,41,,16.11,projected,mmol m-2 s-1
+Arachis hypogaea,SPT 06-07,Field,1,,6.43,projected,mmol m-2 s-1
+Arachis hypogaea,SPT 06-07,Field,18,,5.19,projected,mmol m-2 s-1
+Arachis hypogaea,SPT 06-07,Field,31,,9.18,projected,mmol m-2 s-1
+Arachis hypogaea,SPT 06-07,Field,36,,8.84,projected,mmol m-2 s-1
+Arachis hypogaea,SPT 06-07,Field,41,,12.42,projected,mmol m-2 s-1
+Arachis hypogaea,Bailey,Field,1,,6.3,projected,mmol m-2 s-1
+Arachis hypogaea,Bailey,Field,18,,5.89,projected,mmol m-2 s-1
+Arachis hypogaea,Bailey,Field,31,,9.96,projected,mmol m-2 s-1
+Arachis hypogaea,Bailey,Field,36,,13.17,projected,mmol m-2 s-1
+Arachis hypogaea,Bailey,Field,41,,13.17,projected,mmol m-2 s-1

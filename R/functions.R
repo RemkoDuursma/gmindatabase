@@ -1,5 +1,7 @@
-read_data_dir <- function(path, average=TRUE){
+read_data_dir <- function(path, average=TRUE, output=c("database","all")){
   
+  output <- match.arg(output)
+  if(output == "all")average <- FALSE
   raw <- read.csv(file.path(path, "data.csv"), stringsAsFactors = FALSE)  
   
   studyname <- basename(path)
@@ -21,6 +23,8 @@ read_data_dir <- function(path, average=TRUE){
 
   # Unit conversions.
   raw$gmin <- mapply(convert_gmin_units, x=raw$gmin, units=raw$units, area=raw$area, species=raw$species)
+  
+  if(output == "all")return(raw)
   
   # Average across measurements for a species.
   # (Genotypes, dates, locations, etc.)

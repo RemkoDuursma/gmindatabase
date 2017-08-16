@@ -129,5 +129,33 @@ rebuild_database <- function(){
 return(invisible(dfr))
 }
 
+read_crops_genotype <- function(){
+  
+  alldata_files <- dir("data", pattern="data.csv", full.names=TRUE, recursive = TRUE) 
+  
+  dats <- lapply(alldata_files, read.csv, stringsAsFactors=FALSE)
+  
+  nm <- lapply(dats, names)
+  ii <- sapply(nm, function(x)any(grepl("genotype", x, ignore.case=TRUE)))
+  
+  dirs <- dirname(alldata_files[ii])
+  
+  d <- do.call(rbind, lapply(dirs, read_data_dir, average=FALSE,
+                             cols_database=c("species","gmin","genotype","datasource","citation"),
+                             run_prepare=TRUE))  # usually take control treatments
+  
+  crop_df <- data.frame(genus = c("Arachis","Triticum","Oryza","Zea","Avena","Glycine max","Sorghum","Gossypium","Pennisetum"),
+                        crop = c("Peanut","Wheat","Rice","Maize","Oats","Soybean","Sorghum","Cotton","Millet"),
+                        stringsAsFactors = FALSE)
+  
+  d$crop <- stri_replace_all_regex(d$species, sprintf(".*%s.*", crop_df$genus), crop_df$crop, vectorize_all=FALSE)
+  
+  d <- subset(d, crop %in% crop_df$crop)
+  
+  write.csv(d, "combined/cropgmindatabase.csv", row.names=FALSE)
+  
+  return(invisible(d))
+}
+
 
 

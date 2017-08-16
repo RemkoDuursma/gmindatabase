@@ -1,4 +1,7 @@
-read_data_dir <- function(path, average=TRUE, output=c("database","all")){
+read_data_dir <- function(path, average=TRUE, 
+                          run_prepare=TRUE,
+                          output=c("database","all"), 
+                          cols_database=c("species","gmin","datasource","citation")){
   
   output <- match.arg(output)
   if(output == "all")average <- FALSE
@@ -10,7 +13,7 @@ read_data_dir <- function(path, average=TRUE, output=c("database","all")){
   ref_cite <- citation_data(studyname, refs=refs)
   
   prepscript <- file.path(path, "prepare.R")
-  if(file.exists(prepscript)){
+  if(run_prepare && file.exists(prepscript)){
     source(prepscript, local=TRUE)
     raw <- prepare(raw)
     
@@ -24,6 +27,8 @@ read_data_dir <- function(path, average=TRUE, output=c("database","all")){
   # Unit conversions.
   raw$gmin <- mapply(convert_gmin_units, x=raw$gmin, units=raw$units, area=raw$area, species=raw$species)
   
+  names(raw) <- tolower(names(raw))
+  
   if(output == "all")return(raw)
   
   # Average across measurements for a species.
@@ -32,8 +37,18 @@ read_data_dir <- function(path, average=TRUE, output=c("database","all")){
     raw <- summaryBy(. ~ species, data=raw, FUN=mean, keep.names=TRUE, id=~datasource+citation, na.rm=TRUE)
   }
   
-raw[,c("species","gmin","datasource","citation")]
+select_fill(raw, cols_database)
 }
+
+
+select_fill <- function(dfr, columns){
+
+  dfrout <- dfr[intersect(columns, names(dfr))]
+  dfrout[setdiff(columns, names(dfr))] <- NA
+  
+dfrout
+}
+
 
 
 citation_data <- function(studyname, refs=NULL){

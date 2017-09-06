@@ -1,4 +1,4 @@
-species,leaf_type,gmin,units,area
+species,leaftype,gmin,units,area
 Acer rubrum,sun,4.32662789,mmol m-2 s-1,projected
 Acer rubrum,shade,4.196396652,mmol m-2 s-1,projected
 Acer saccharum,shade,4.191800255,mmol m-2 s-1,projected

@@ -1,7 +1,7 @@
 # See README.md
 
 if(!require(pacman))install.packages("pacman")
-pacman::p_load(doBy, RefManageR)
+pacman::p_load(doBy, RefManageR, stringi)
 
 source("R/functions.R")
 
@@ -12,10 +12,10 @@ source("R/functions.R")
 gmindat <- rebuild_database()
 
 # Number of species / study combinations
-nrow(gmindat)
+message("Number of measurements (filtered):", nrow(gmindat))
 
 # Number of unique species
-length(unique(gmindat$species))
+message("Number of species:", length(unique(gmindat$species)))
 
 
 # Database with crops only, keeping also the genotype for each study.

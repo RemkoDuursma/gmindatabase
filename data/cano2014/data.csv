@@ -1,0 +1,7 @@
+species,treatment,gmin,units,area
+Eucalyptus dumosa,wellwatered,4.29,mmol m-2 s-1,projected
+Eucalyptus pauciflora,wellwatered,4.18,mmol m-2 s-1,projected
+Eucalyptus dumosa,moderate water stress,2.72,mmol m-2 s-1,projected
+Eucalyptus pauciflora,moderate water stress,3.31,mmol m-2 s-1,projected
+Eucalyptus dumosa,severe water stress,2.2,mmol m-2 s-1,projected
+Eucalyptus pauciflora,severe water stress,2.33,mmol m-2 s-1,projected

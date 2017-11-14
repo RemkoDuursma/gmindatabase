@@ -1,3 +1,35 @@
+rebuild_all <- function(){
+  
+  # Tidied database with only species, gmin, datasource and citation.
+  # For each data directory, the prepare.R script is run, which usually
+  # takes only control treatments (and other 'control'-like conditions).
+  # Also average by species within study.
+  gmindat <<- rebuild_database()
+  
+  cat(paste("\n\nBuilding gmin databases\n\n"))
+  
+  # Number of species / study combinations
+  # !! pipe %+% does not work on this system
+  cat(paste(cyan("Number of measurements (filtered):"),
+            white(nrow(gmindat) %>% chr)), "\n")
+  
+  # Number of unique species
+  cat(paste(cyan("Number of species:"),
+            white(gmindat$species %>% unique %>% length %>% chr)), "\n")
+  
+  
+  # Database with crops only, keeping also the genotype mfor each study.
+  # New column 'crop' for high-level name of the crop (Maize, Soybean, etc.).
+  cropgmin <<- read_crops_genotype()
+  
+  cat(paste(cyan("Number of crop measurements:"),
+            white(nrow(cropgmin) %>% chr)), "\n")
+  
+}
+
+  
+  
+
 read_data_dir <- function(path, average=TRUE, 
                           run_prepare=TRUE,
                           output=c("database","all"), 

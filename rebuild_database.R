@@ -2,7 +2,7 @@
 
 ## Install missing packages
 if(!require(pacman))install.packages("pacman")
-pacman::p_load(doBy, RefManageR, stringi, Hmisc)
+pacman::p_load(doBy, RefManageR, stringi, Hmisc, crayon, magrittr)
 
 # Load custom functions
 source("R/functions.R")

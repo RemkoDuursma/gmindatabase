@@ -1,4 +1,4 @@
-prepare <- function(raw){
+control <- function(raw){
 
 	subset(raw, treatment == "control")
 	

@@ -4,7 +4,9 @@ rebuild_all <- function(){
   # For each data directory, the prepare.R script is run, which usually
   # takes only control treatments (and other 'control'-like conditions).
   # Also average by species within study.
-  gmindat <<- rebuild_database()
+  gmindat <<- rebuild_database(outfile="combined/gmindatabase.csv")
+  gminall <<- rebuild_database(subset_control = FALSE, average_species = FALSE, output="all",
+                               bindrows=FALSE)
   
   cat(paste("\n\nBuilding gmin databases\n\n"))
   
@@ -20,7 +22,7 @@ rebuild_all <- function(){
   
   # Database with crops only, keeping also the genotype mfor each study.
   # New column 'crop' for high-level name of the crop (Maize, Soybean, etc.).
-  cropgmin <<- read_crops_genotype()
+  cropgmin <<- read_crops_genotype(outfile="combined/cropgmindatabase.csv")
   
   cat(paste(cyan("Number of crop measurements:"),
             white(nrow(cropgmin) %>% chr)), "\n")
@@ -30,9 +32,10 @@ rebuild_all <- function(){
   
   
 
-read_data_dir <- function(path, average=TRUE, 
-                          run_prepare=TRUE,
-                          output=c("database","all"), 
+read_data_dir <- function(path, 
+                          average_species = TRUE, 
+                          subset_control = TRUE,
+                          output=c("database","all"),
                           cols_database=c("species","gmin","datasource","citation")){
   
   output <- match.arg(output)
@@ -44,10 +47,10 @@ read_data_dir <- function(path, average=TRUE,
   refs <- ReadBib("references/references.bib")
   ref_cite <- citation_data(studyname, refs=refs)
   
-  prepscript <- file.path(path, "prepare.R")
-  if(run_prepare && file.exists(prepscript)){
-    source(prepscript, local=TRUE)
-    raw <- prepare(raw)
+  controlscript <- file.path(path, "control.R")
+  if(subset_control && file.exists(controlscript)){
+    source(controlscript, local=TRUE)
+    raw <- control(raw)
     
     # Drop missing values (some may be generated in the prepare functions)
     raw <- raw[!is.na(raw$gmin),]
@@ -65,7 +68,7 @@ read_data_dir <- function(path, average=TRUE,
   
   # Average across measurements for a species.
   # (Genotypes, dates, locations, etc.)
-  if(average){
+  if(average_species){
     raw <- summaryBy(. ~ species, data=raw, FUN=mean, keep.names=TRUE, id=~datasource+citation, na.rm=TRUE)
   }
   
@@ -144,24 +147,36 @@ return(2)
 
 
 
-rebuild_database <- function(){
+rebuild_database <- function(..., outfile="", bindrows=TRUE){
   
   paths <- dir("data", full.names=TRUE)
                
   l <- list()
   for(i in seq_along(paths)){
     message(sprintf("Adding %s", basename(paths[i])))
-    l[[i]] <- read_data_dir(paths[i])  
+    l[[i]] <- read_data_dir(paths[i], ...)  
   }
   
-  dfr <- do.call(rbind, l)
+  if(bindrows){
+    dfr <- bind_rows(l) %>% as.data.frame
   
-  write.csv(dfr, "combined/gmindatabase.csv", row.names=FALSE)
+    if(outfile != ""){
+      write.csv(dfr, outfile, row.names=FALSE)
+    }
+    
+    return(invisible(dfr))
+  } else {
+    
+    names(l) <- basename(paths)
+    return(l)
+    
+  }
   
-return(invisible(dfr))
+
 }
 
-read_crops_genotype <- function(){
+
+read_crops_genotype <- function(outfile=""){
   
   alldata_files <- dir("data", pattern="data.csv", full.names=TRUE, recursive = TRUE) 
   
@@ -172,9 +187,9 @@ read_crops_genotype <- function(){
   
   dirs <- dirname(alldata_files[ii])
   
-  d <- do.call(rbind, lapply(dirs, read_data_dir, average=FALSE,
+  d <- do.call(rbind, lapply(dirs, read_data_dir, average_species = FALSE,
                              cols_database=c("species","gmin","genotype","datasource","citation"),
-                             run_prepare=TRUE))  # usually take control treatments
+                             subset_control = TRUE))  # usually take control treatments
   
   crop_df <- data.frame(genus = c("Arachis","Triticum","Oryza","Zea","Avena","Glycine max","Sorghum","Gossypium","Pennisetum"),
                         crop = c("Peanut","Wheat","Rice","Maize","Oats","Soybean","Sorghum","Cotton","Millet"),
@@ -184,7 +199,9 @@ read_crops_genotype <- function(){
   
   d <- subset(d, crop %in% crop_df$crop)
   
-  write.csv(d, "combined/cropgmindatabase.csv", row.names=FALSE)
+  if(outfile != ""){
+    write.csv(d, outfile, row.names=FALSE)
+  }
   
   return(invisible(d))
 }

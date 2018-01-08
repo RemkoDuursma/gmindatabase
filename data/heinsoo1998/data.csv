@@ -1,4 +1,4 @@
-species,study_site,leaf_cohort,gmin,units,area
+species,study_site,leafage,gmin,units,area
 Picea abies,Kasmu,C,1.38,10^5 ms-1,allsided
 Picea abies,Kivioli,C,1.56,10^5 ms-1,allsided
 Picea abies,Vigala,C,1.54,10^5 ms-1,allsided

@@ -1,4 +1,4 @@
-species,foliar_age,area,units,month,gmin
+species,leafage,area,units,month,gmin
 Tsuga canadensis,current,allsided,mm s-1,January,0.115
 Tsuga canadensis,one-year-old,allsided,mm s-1,January,0.201
 Pinus strobus,current,allsided,mm s-1,January,0.032

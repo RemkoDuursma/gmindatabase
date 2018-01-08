@@ -7,6 +7,7 @@ rebuild_all <- function(){
   gmindat <<- rebuild_database(outfile="combined/gmindatabase.csv")
   gminall <<- rebuild_database(subset_control = FALSE, average_species = FALSE, output="all",
                                bindrows=FALSE)
+  dput(gminall, "combined/gminall.rdput")
   
   cat(paste("\n\nBuilding gmin databases\n\n"))
   
@@ -30,7 +31,7 @@ rebuild_all <- function(){
 }
 
   
-  
+
 
 read_data_dir <- function(path, 
                           average_species = TRUE, 

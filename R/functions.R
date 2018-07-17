@@ -7,7 +7,7 @@ rebuild_all <- function(){
   gmindat <<- rebuild_database(outfile="combined/gmindatabase.csv")
   gminall <<- rebuild_database(subset_control = FALSE, average_species = FALSE, output="all",
                                bindrows=FALSE)
-  dput(gminall, "combined/gminall.rdput")
+  saveRDS(gminall, file = "combined/gminall.asc", ascii = TRUE)
   
   cat(paste("\n\nBuilding gmin databases\n\n"))
   
